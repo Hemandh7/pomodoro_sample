@@ -1,0 +1,161 @@
+.pomodoro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  transition: background-color 0.3s ease;
+  background-color: #f8f8f8;
+}
+
+.tags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.tag {
+  cursor: pointer;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.tag.active {
+  background-color: white;
+  color: black;
+}
+
+.work-work {
+  background-color: #ff6b6b;
+}
+
+.work-shortbreak {
+  background-color: #3f88c5;
+}
+
+.work-longbreak {
+  background-color: #33cc95;
+}
+
+.break-work {
+  background-color: #333;
+}
+
+.break-shortbreak {
+  background-color: #3f88c5;
+}
+
+.break-longbreak {
+  background-color: #33cc95;
+}
+
+.timer {
+  font-size: 120px;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: color 0.3s ease;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.start-button,
+.stop-button {
+  padding: 20px 40px;
+  font-size: 35px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+.start-button {
+  background-color: #5cb85c;
+}
+
+.stop-button {
+  background-color: #d9534f;
+}
+
+.start-button:hover,
+.stop-button:hover {
+  background-color: #4cae4c;
+}
+
+.settings-tag {
+  cursor: pointer;
+  font-size: 60px;
+  margin: 40px;
+  color: #333;
+  text-decoration: underline;
+}
+
+.settings-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.settings-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.settings-content h2 {
+  margin-bottom: 20px;
+}
+
+.settings-content label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.settings-content input {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.settings-content button {
+  padding: 20px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #337ab7;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.settings-content button:hover {
+  background-color: #286090;
+}
